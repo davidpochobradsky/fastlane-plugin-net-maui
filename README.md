@@ -1,6 +1,6 @@
-# xamarin_native plugin
+# .NET MAUI plugin
 
-[![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-xamarin_native)
+This project is a fork from: https://github.com/Illania/fastlane-plugin-xamarin_native. Many thanks for the initial architecture!
 
 ## Getting Started
 
