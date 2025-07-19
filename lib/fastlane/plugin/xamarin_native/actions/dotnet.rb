@@ -8,7 +8,7 @@ module Fastlane
        ACTION = %w(build publish).freeze
        TARGET = %w(build rebuild clean).freeze
        CONFIGURATION = %w(Release Debug).freeze
-       FRAMEWORK = %(net8.0-ios net8.0-android)
+       FRAMEWORK = ''
        RUNTIME_IDENTIFIER = %w(ios-arm64 android-arm64).freeze
        PRINT_ALL = [true, false].freeze
 
