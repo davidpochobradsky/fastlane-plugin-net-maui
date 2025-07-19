@@ -43,7 +43,7 @@ module Fastlane
         command << "-p:BuildIpa=True " if ipa_name != nil
         command << "-p:IpaPackageName=#{ipa_name} " if ipa_name != nil
         
-        command << "-p:AndroidKeyStore=true" if sign_apk == true
+        command << "-p:AndroidKeyStore=true " if sign_apk == true
         command << "-p:AndroidSigningKeyStore=#{android_signing_keystore} " if  android_signing_keystore != nil
         command << "-p:AndroidSigningKeyPass=#{android_signing_key_pass} " if android_signing_key_pass != nil
         command << "-p:AndroidSigningStorePass=#{android_signing_store_pass} " if  android_signing_store_pass != nil
