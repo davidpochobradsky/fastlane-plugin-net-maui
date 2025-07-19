@@ -55,7 +55,7 @@ module Fastlane
       end
 
       def self.description
-         "Build Xamarin.Native iOS and Android projects using msbuild"
+         "Build .NET MAUI iOS and Android projects using msbuild"
       end
 
       def self.authors

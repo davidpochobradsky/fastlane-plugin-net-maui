@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.author        = 'illania'
   spec.email         = 'ag@nordic-it.com'
 
-  spec.summary       = 'Plugin for Xamarin.Native iOS and Android projects'
+  spec.summary       = 'Plugin for .NET MAUI iOS and Android projects'
   spec.homepage      = "https://github.com/illania/fastlane-plugin-xamarin_native"
   spec.license       = "MIT"
 
