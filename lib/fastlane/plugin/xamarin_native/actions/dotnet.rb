@@ -97,16 +97,16 @@ module Fastlane
               end
           ),
 
-          #  FastlaneCore::ConfigItem.new(
-          #   key: :framework,
-          #   env_name: 'FL_XN_BUILD_FRAMEWORK',
-          #   description: 'Build Framework',
-          #   type: String,
-          #   optional: false,
-          #   verify_block: proc do |value|
-          #     UI.user_error!("Unsupported value! Use one of #{FRAMEWORK.join '\' '}".red) unless FRAMEWORK.include? value
-          #   end
-          # ),
+           FastlaneCore::ConfigItem.new(
+            key: :framework,
+            env_name: 'FL_XN_BUILD_FRAMEWORK',
+            description: 'Build Framework',
+            type: String,
+            optional: false,
+            verify_block: proc do |value|
+              UI.user_error!("Unsupported value! Use one of #{FRAMEWORK.join '\' '}".red) unless FRAMEWORK.include? value
+            end
+          ),
 
           FastlaneCore::ConfigItem.new(
             key: :runtime_identifier,
